@@ -4,7 +4,7 @@ const config = require('./config/db');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const PORT = Number(process.env.PORT || 5000);
+const PORT = Number(process.env.PORT || 4000);
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
